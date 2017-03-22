@@ -1,5 +1,16 @@
-# enhance
+# Enhance
 Enhancer for bootstrap and font-awesome
+
+
+The right way and easest way to enhance Bootstrap v4 and font-awesome is
+
+1. We just use normal bootstrap v4 and font-awesome.
+2. We will enhance the look of boostrap & font-awesome and somehow we will add our own components.
+3. We only work on CSS.
+
+
+
+
 
 
 # For developers
