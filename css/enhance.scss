@@ -1,0 +1,57 @@
+$margin-bottom: .6em;
+/**
+ *
+ *      U T I L I T I E S
+ *
+ */
+.box-shadow {
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.1 );
+}
+.bg-red {
+    background-color: #dd4b39 !important;
+}
+/**
+ *
+ *      B A S E
+ *
+ */
+/**
+ *
+ *      L A Y O U T
+ *
+ */
+/**
+ *
+ *      M O D U L E S
+ *
+ */
+
+.info-box {                         /////////////// info-box //////////////
+    display: block;
+    margin-bottom: $margin-bottom;
+    background: #fff;
+    width: 100%;
+    overflow: auto;
+    .icon {
+        float: left;
+        padding: 1em;
+        background: #00c0ef;
+        color: white;
+    }
+    .text {
+        float: left;
+        .title {
+            padding: .2em 0 0 .6em;
+        }
+        .content {
+            padding: .2em 0 0 .6em;
+            font-weight: bold;
+        }
+    }
+}
+
+.progress-group {
+    margin-bottom: $margin-bottom;   
+}
+
+
