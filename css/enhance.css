@@ -1,0 +1,31 @@
+
+.info-box {
+    display: block;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.1 );
+    border-radius: 2px;
+    overflow: auto;
+}
+
+
+.info-box .icon {
+    float: left;
+    padding: 1em;
+    background: #00c0ef;
+    color: white;
+}
+
+.info-box .text {
+    float: left;
+}
+
+
+.info-box .text .title {
+    padding: .2em 0 0 .6em;
+}
+
+.info-box .text .content {
+    padding: .2em 0 0 .6em;
+    font-weight: bold;
+}
