@@ -1,3 +1,4 @@
+$gutter: .6em;
 $margin-bottom: .6em;
 /**
  *
@@ -7,25 +8,52 @@ $margin-bottom: .6em;
 .box-shadow {
   box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.1 );
 }
-.bg-red {
-  background-color: #dd4b39 !important;
-}
-.bg-white {
-  background-color: #fff !important;
-}
-.bg-blue {
-  background-color: #3c8dbc !important;
-}
+.red { color: red!important; }
+.bg-red { background-color: red!important; }
+
+.darkred { color: darkred!important; }
+.bg-darkred { background-color: darkred!important; }
+
+.blackred { color: #b80000!important; }
+.bg-blackred { background-color: #b80000!important; }
+
+.orange { color: orange!important; }
+.bg-orange { background-color: orange!important; }
+
+.white { color: white!important; }
+.bg-white { background-color: white!important; }
+.blue { color: blue!important; }
+.bg-blue { background-color: blue!important; }
+
+
+.grey { color: grey!important; }
+.bg-grey { background-color: grey!important; }
+
+
+
+.margin-top-3 { margin-top: 3em!important; }
+.margin-top-4 { margin-top: 4em!important; }
+.none { list-style: none; margin: 0; padding: 0; box-sizing: border-box; } // for <ul>
+
+.bold { font-weight: bold; }
+.fs-80 { font-size: 80%; }
+.fs-90 { font-size: 90%; }
+.fs-110 { font-size: 110%; }
+.fs-120 { font-size: 120%; }
+
+
 /**
  *
  *      B A S E
  *
  */
+ 
 /**
  *
  *      L A Y O U T
  *
  */
+
 /**
  *
  *      M O D U L E S
@@ -37,7 +65,9 @@ $margin-bottom: .6em;
   margin-bottom: $margin-bottom;
   background: #fff;
   width: 100%;
+  min-width: 10em;
   overflow: auto;
+  line-height: 1em;
   .icon {
     float: left;
     padding: 1em;
@@ -46,19 +76,33 @@ $margin-bottom: .6em;
   }
   .text {
     float: left;
+    padding-left: $gutter;
     .title {
-      padding: .2em 0 0 .6em;
+      padding-top: $gutter;
     }
     .content {
-      padding: .2em 0 0 .6em;
+      padding-top: $gutter;
       font-weight: bold;
     }
   }
 }
 
 .progress-group {
+  position: relative;
   margin-bottom: $margin-bottom;
+
+  .text {
+    display: block;
+    float: left;
+  }
+  .number {
+    display: block;
+    text-align: right;
+  }
+
+
 }
+
 
 
 
@@ -88,51 +132,9 @@ h1 {
  */
 
 .sidebar {
-  position: fixed;
-  top: 56px;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  padding: 20px;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  border-right: 1px solid #eee;
-}
-
-/* Sidebar navigation */
-.sidebar {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.sidebar .nav {
-  margin-bottom: 20px;
-}
-
-.sidebar .nav-item {
-  width: 100%;
-}
-
-.sidebar .nav-item + .nav-item {
-  margin-left: 0;
-}
-
-.sidebar .nav-link {
-  border-radius: 0;
-}
-
-/*
- * Dashboard
- */
-
-/* Placeholders */
-.placeholders {
-  padding-bottom: 3rem;
-}
-
-.placeholder img {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  
+  
+  border-right: 1px solid green;
 }
 
 
