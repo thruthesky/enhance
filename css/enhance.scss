@@ -43,6 +43,16 @@ $margin-bottom: .6em;
 .margin-top-5 { margin-top: 5em; }
 .margin-top-6 { margin-top: 6em; }
 
+
+
+.style-none { // for ul, ol
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
 /**
  *
  *      B A S E
@@ -125,3 +135,20 @@ $margin-bottom: .6em;
 
 
 
+/// Side menu
+
+.side-menu {
+  padding: 1em;
+  font-size: .9rem;
+
+  li {
+    cursor: pointer;
+  }
+  .heading {
+    font-weight: bold;
+  }
+
+  .depth-2 {
+    margin-left: 1em;
+  }
+}
