@@ -1,14 +1,5 @@
-/**
- *
- * Variables
- *
- */
-$gutter: .6em;
-$margin-bottom: .6em;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xg: 1200px;
+@import './_variables';
+@import './_mixins';
 
 
 /**
@@ -55,17 +46,12 @@ $xg: 1200px;
 .margin-top-6 { margin-top: 6em; }
 
 
-.list-style-none { // for ul, ol
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.list-style-none {
+  @include list-style-none();
 }
 
 .list-float-left {
-  li {
-    float: left;
-    padding: $gutter;
-  }
+  @include list-float-left();
 }
 
 
@@ -79,6 +65,9 @@ $xg: 1200px;
  *      L A Y O U T
  *
  */
+
+@import './_top-menu';
+
 
 /**
  *      E N H A N C   BOOTSTRAP
@@ -105,48 +94,9 @@ $xg: 1200px;
  *
  */
 
-.info-box {                         /////////////// info-box //////////////
-  display: block;
-  margin-bottom: $margin-bottom;
-  background: #fff;
-  width: 100%;
-  min-width: 10em;
-  overflow: auto;
-  line-height: 1em;
-  .icon {
-    float: left;
-    padding: 1em;
-    background: #00c0ef;
-    color: white;
-  }
-  .text {
-    float: left;
-    padding-left: $gutter;
-    .title {
-      padding-top: $gutter;
-    }
-    .content {
-      padding-top: $gutter;
-      font-weight: bold;
-    }
-  }
-}
+@import './_info-box';
+@import './_progress-group';
 
-.progress-group {
-  position: relative;
-  margin-bottom: $margin-bottom;
-
-  .text {
-    display: block;
-    float: left;
-  }
-  .number {
-    display: block;
-    text-align: right;
-  }
-
-
-}
 
 
 
