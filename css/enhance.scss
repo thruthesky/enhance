@@ -1,5 +1,16 @@
+/**
+ *
+ * Variables
+ *
+ */
 $gutter: .6em;
 $margin-bottom: .6em;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xg: 1200px;
+
+
 /**
  *
  *      U T I L I T I E S
@@ -44,13 +55,18 @@ $margin-bottom: .6em;
 .margin-top-6 { margin-top: 6em; }
 
 
-
-.style-none { // for ul, ol
+.list-style-none { // for ul, ol
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.list-float-left {
+  li {
+    float: left;
+    padding: $gutter;
+  }
+}
 
 
 /**
