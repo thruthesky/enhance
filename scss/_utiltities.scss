@@ -1,6 +1,3 @@
-@import './_variables';
-@import './_mixins';
-
 
 /**
  *
@@ -55,24 +52,6 @@
 }
 
 
-/**
- *
- *      B A S E
- *
- */
-/**
- *
- *      L A Y O U T
- *
- */
-
-@import './_top-menu';
-
-
-/**
- *      E N H A N C   BOOTSTRAP
- */
-
 // For container, it is not easy to remove all spaces. Use this to remove all spaces of container.
 .no-space {
   margin: 0!important;
@@ -85,36 +64,5 @@
       margin: 0!important;
       padding: 0!important;
     }
-  }
-}
-
-/**
- *
- *      M O D U L E S
- *
- */
-
-@import './_info-box';
-@import './_progress-group';
-
-
-
-
-
-/// Side menu
-
-.side-menu {
-  padding: 1em;
-  font-size: .9rem;
-
-  li {
-    cursor: pointer;
-  }
-  .heading {
-    font-weight: bold;
-  }
-
-  .depth-2 {
-    margin-left: 1em;
   }
 }

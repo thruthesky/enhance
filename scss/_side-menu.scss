@@ -1,0 +1,27 @@
+
+
+/// Side menu
+/**
+
+  .side-menu > nav > ul > li
+
+ */
+.side-menu {
+  padding: 1em;
+    font-size: .9rem;
+    nav {
+      ul {
+        @include list-style-none();
+      }
+      li {
+        cursor: pointer;
+      }
+      .heading {
+        font-weight: bold;
+      }
+
+      .depth-2 {
+        margin-left: 1em;
+      }
+  }
+}
