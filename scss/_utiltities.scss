@@ -73,3 +73,11 @@
 .pointer {
   cursor: pointer;
 }
+
+
+// butons
+.buttons {
+  & > div, & > span {
+    cursor: pointer;
+  }
+}
