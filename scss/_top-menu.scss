@@ -1,6 +1,8 @@
 
 // Top menu
 /**
+ * Deprecated
+ *
  .top-menu > nav > ul > li
  */
 .top-menu {
@@ -45,11 +47,3 @@
 
 }
 
-
-.list-menu {
-    @include list-style-none();
-    @include list-float-left();
-    li {
-      cursor: pointer;
-    }
-}
