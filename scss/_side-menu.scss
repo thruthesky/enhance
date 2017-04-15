@@ -1,10 +1,12 @@
 
 
-/// Side menu
-/**
 
+/**
+ * This is deprecated !!!! ...
+ * Do not use this.
   .side-menu > nav > ul > li
 
+ * 
  */
 .side-menu {
   padding: 1em;
@@ -23,5 +25,15 @@
       .depth-2 {
         margin-left: 1em;
       }
+  }
+}
+
+
+/// for panel menu.
+ul.panel {
+  @include list-style-none();
+  & > li {
+    padding: $gutter;
+    cursor: pointer;
   }
 }

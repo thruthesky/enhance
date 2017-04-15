@@ -5,7 +5,8 @@
  */
 $gutter: 8px;
 $margin-bottom: 6px;
-$top-menu-height: 80px;
+$header-height: 80px;
+$top-menu-height: $header-height; /// deprecated
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
