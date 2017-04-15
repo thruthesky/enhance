@@ -44,3 +44,12 @@
   }
 
 }
+
+
+.list-menu {
+    @include list-style-none();
+    @include list-float-left();
+    li {
+      cursor: pointer;
+    }
+}
