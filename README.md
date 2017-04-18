@@ -10,6 +10,11 @@ The right way and easest way to enhance Bootstrap v4 and font-awesome is
 
 
 
+# Update
+
+* sample.ts was removed. You can simply use 'sample.html' with sample.html.
+
+
 
 
 
