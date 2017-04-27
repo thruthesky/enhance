@@ -71,3 +71,16 @@
 .z-index {
   z-index: 654321;
 }
+
+
+// borders.
+// https://v4-alpha.getbootstrap.com/utilities/borders/
+//
+// bb-x: border bottom with {x}px.
+// @see color.scss for border colors.
+.bb-1 {
+  border-bottom: 1px solid;
+}
+.bb-2 {
+  border-bottom: 1px solid;
+}

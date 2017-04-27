@@ -11,10 +11,14 @@
 
 
 /// for panel menu.
-ul.panel {
+ul.list-panel-menu {
   @include list-style-none();
   & > li {
     padding: $gutter;
     cursor: pointer;
+    border-top: 1px solid #eee;
+      &:hover {
+          background-color: #f3f3f3;
+      }
   }
 }
