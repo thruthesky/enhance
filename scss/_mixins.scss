@@ -7,6 +7,5 @@
 @mixin list-float-left() {
   li {
     float: left;
-    padding: $gutter;
   }
 }

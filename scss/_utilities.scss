@@ -44,7 +44,7 @@
 }
 
 .pointers {
-  & > div {
+  div, span {
     cursor: pointer;
   }
 }
@@ -83,4 +83,13 @@
 }
 .bb-2 {
   border-bottom: 1px solid;
+}
+
+
+// spacing
+// @use-case: <ul class="p-2s">...</ul>
+.p-2s {
+  &>div, &>span, &>li {
+    padding: .5em;
+  }
 }
