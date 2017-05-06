@@ -9,10 +9,24 @@ The right way and easest way to enhance Bootstrap v4 and font-awesome is
 3. We only work on CSS.
 
 
+# Installation
 
-# Update
+* first, add enhancer into your Angular project.
 
-* sample.ts was removed. You can simply use 'sample.html' with sample.html.
+For instance, you can add enhancer as git submodule.
+
+````
+$ git submodule add https://github.com/thruthesky/enhancer src/enhancer
+````
+
+* second, add it to "styles" section in .angular.cli.json
+
+````
+      "styles": [
+        "enhancer/css/enhance.scss"
+      ]
+````
+
 
 
 
@@ -36,7 +50,7 @@ $ git submodule add https://github.com/thruthesky/enhance src/enhance
 ````
       "styles": [
         "styles.scss",
-        "enhance/css/enhance.scss"
+        "enhancer/css/enhance.scss"
       ],
 ````
 
