@@ -23,7 +23,7 @@ $ git submodule add https://github.com/thruthesky/enhancer src/enhancer
 
 ````
       "styles": [
-        "enhancer/css/enhance.scss"
+        "enhancer/scss/enhancer.scss"
       ]
 ````
 
@@ -50,7 +50,7 @@ $ git submodule add https://github.com/thruthesky/enhance src/enhance
 ````
       "styles": [
         "styles.scss",
-        "enhancer/css/enhance.scss"
+        "enhancer/scss/enhancer.scss"
       ],
 ````
 
