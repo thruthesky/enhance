@@ -44,7 +44,7 @@
 }
 
 .pointers {
-  div, span {
+  &>div, &>span, &>li {
     cursor: pointer;
   }
 }
