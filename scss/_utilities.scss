@@ -88,7 +88,11 @@
 
 // spacing
 // @use-case: <ul class="p-2s">...</ul>
-.p-2s {
+.p-1s {
+  &>div, &>span, &>li {
+    padding: .25em;
+  }
+}.p-2s {
   &>div, &>span, &>li {
     padding: .5em;
   }

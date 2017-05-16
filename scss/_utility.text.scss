@@ -1,7 +1,13 @@
 
 
 
+// font weight
+.normal { font-weight: normal }
 .bold { font-weight: bold; }
+
+
+
+// font size - percentage
 .fs-80 { font-size: 80%; }
 .fs-90 { font-size: 90%; }
 .fs-100 { font-size: 100%; }
@@ -17,7 +23,7 @@
 .fs-200 { font-size: 200%; }
 
 
-
+// font-size - em
 .fs-08em { font-size: .8em; }
 .fs-09em { font-size: .9em; }
 .fs-1em { font-size: 1em; }
