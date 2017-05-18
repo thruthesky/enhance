@@ -77,3 +77,20 @@ $ git submodule add https://github.com/thruthesky/enhance src/enhance
 
 6. After work, git commit/push
 
+
+
+
+
+# Tips
+
+## Centering an element of parent
+
+left, right = 50%
+margin-left, margin-right = - size;
+
+````
+<div class="p-relative">
+    <img [src]="teacher.img_youtube">
+    <i class="p-absolute b-block t-50 l-50 fs-3rem orange fa fa-play-circle" style="margin-top: -1.5rem; margin-left: -1.5rem;"></i>
+</div>
+````

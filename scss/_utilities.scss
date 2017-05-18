@@ -99,7 +99,7 @@
 }
 
 /**
- * margin
+ * margin.
  */
 @each $size in 6, 7, 8, 9 {
   .ml-#{$size} { margin-left: #{$size}em; }
@@ -110,7 +110,45 @@
 /**
  *
  * max-width by em;
+ * h-25, w-25 up exists in bootstrap;
+ * mw-25 exsits on bootstrap for 25% of max width.
  */
-@each $size in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 {
+@each $size in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 {
   .mw-#{$size} { max-width: #{$size}em; }
+  .mh-#{$size} { max-height: #{$size}em; }
+  .w-#{$size} { width: #{$size}em; }
+  .h-#{$size} { height: #{$size}em; }
+}
+.mh-auto { max-height: none; }
+.h-auto { height: auto; }
+.of-hidden {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.t-0 {
+  top: 0;
+}
+.t-50 {
+  top: 50%;
+}
+.l-0 {
+  left: 0;
+}
+.l-50 {
+  left: 50%;
+}
+.r-0 {
+  right: 0;
+}
+.r-50 {
+  right: 50%;
+}
+.b-0 {
+  bottom: 0;
+}
+.b-50 {
+  bottom: 50%;
 }

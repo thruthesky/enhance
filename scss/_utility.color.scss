@@ -1,30 +1,30 @@
 // red
 .red { color: red!important; }
 .bg-red { background-color: red!important; }
-.b-red { border-color: red!important; }
+.b-red { border: 1px solid red; }
 
 // dark red
 .darkred { color: darkred!important; }
 .bg-darkred { background-color: darkred!important; }
-.b-darkred { border-color: darkred!important; }
+.b-darkred { border: 1px solid darkred; }
 
 
 // black red
 .blackred { color: #b80000!important; }
 .bg-blackred { background-color: #b80000!important; }
-.b-blackred { border-color: #b80000!important; }
+.b-blackred { border: 1px solid #b80000; }
 
 
 // orange
 .orange { color: orange!important; }
 .bg-orange { background-color: orange!important; }
-.b-orange { border-color: orange!important; }
+.b-orange { border: 1px solid orange; }
 
 
 // white
 .white { color: white!important; }
 .bg-white { background-color: white!important; }
-.b-white { border-color: white!important; }
+.b-white { border: 1px solid white; }
 
 
 // white
@@ -41,13 +41,13 @@
 // blue
 .blue { color: blue!important; }
 .bg-blue { background-color: blue!important; }
-.b-blue { border-color: blue!important; }
+.b-blue { border: 1px solid blue!important; }
 
 
 // lightblue
 .lightblue { color: lightblue!important; }
 .bg-lightblue { background-color: lightblue!important; }
-.b-lightblue { border-color: lightblue!important; }
+.b-lightblue { border: 1px solid lightblue; }
 
 
 // #3498db
@@ -55,42 +55,42 @@
 // skyblue
 .skyblue { color: #3498db!important; }
 .bg-skyblue { background-color: #3498db!important; }
-.b-skyblue { border-color: #3498db!important; }
+.b-skyblue { border: 1px solid #3498db; }
 
 
 
 // black
 .black { color: black!important; }
 .bg-black { background-color: black!important; }
-.b-black { border-color: black!important; }
+.b-black { border: 1px solid black; }
 
 // light black
 .lightblack { color: #444!important; }
 .bg-lightblack { background-color: #444!important; }
-.b-lightblack { border-color: #444!important; }
+.b-lightblack { border: 1px solid #444; }
 
 
 // grey
 .grey { color: grey!important; }
 .bg-grey { background-color: grey!important; }
-.b-grey { border-color: grey!important; }
+.b-grey { border: 1px solid grey; }
 
 // light grey
 .lightgrey { color: #eee!important; }
 .bg-lightgrey { background-color: #eee!important; }
-.b-lightgrey { border-color: #eee!important; }
+.b-lightgrey { border: 1px solid #eee; }
 
 
 // dim grey
 .dimgrey { color: dimgrey!important; }
 .bg-dimgrey { background-color: dimgrey!important; }
-.b-dimgrey { border-color: dimgrey!important; }
+.b-dimgrey { border: 1px solid dimgrey; }
 
 
 // slate grey
 .slategrey { color: slategrey!important; }
 .bg-slategrey { background-color: slategrey!important; }
-.b-slategrey { border-color: slategrey!important; }
+.b-slategrey { border: 1px solid slategrey; }
 
 // silver
 .silver { color: silver!important; }
