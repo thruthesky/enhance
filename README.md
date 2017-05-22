@@ -94,3 +94,14 @@ margin-left, margin-right = - size;
     <i class="p-absolute b-block t-50 l-50 fs-3rem orange fa fa-play-circle" style="margin-top: -1.5rem; margin-left: -1.5rem;"></i>
 </div>
 ````
+
+
+
+
+## combination of classes.
+
+.b-0 is for `bottom: 0` and you want to give some space from bottom. then, you can combine with `.m-2` from bootstrap.
+
+````
+<div class="config p-absolute b-0 m-2">
+````
