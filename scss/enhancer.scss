@@ -23,21 +23,18 @@
 
 @import './_top-menu';
 
+@import './_side-menu';
+
+
 
 /**
- *      E N H A N C   BOOTSTRAP
- */
-
-
-/**
- *
- *      M O D U L E S
- *
+ *      Enhance  BOOTSTRAP v4.
+        Below are only works with botstrap v4 & ng-bootstrap.
  */
 
 @import './_info-box';
 @import './_progress-group';
-@import './_side-menu';
+@import './_modal';
 
 
 
