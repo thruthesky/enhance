@@ -1,6 +1,7 @@
 // red
 .red { color: red!important; }
 .bg-red { background-color: red!important; }
+.bg-red-light { background-color: rgb(255, 190, 190)!important; }
 .b-red { border: 1px solid red; }
 
 // dark red
@@ -18,6 +19,7 @@
 // orange
 .orange { color: orange!important; }
 .bg-orange { background-color: orange!important; }
+.bg-orange-light { background-color: rgb(240, 210, 154)!important; }
 .b-orange { border: 1px solid orange; }
 
 
@@ -41,6 +43,7 @@
 // blue
 .blue { color: blue!important; }
 .bg-blue { background-color: blue!important; }
+.bg-blue-light { background-color: rgb(153, 153, 223)!important; }
 .b-blue { border: 1px solid blue!important; }
 
 
@@ -125,6 +128,8 @@
 .purple { color: purple!important; }
 .bg-purple { background-color: purple!important; }
 
+.bg-purple-light { background: rgb(221, 184, 221)!important; }
+
 
 // yellow
 .yellow { color: yellow!important; }
@@ -133,4 +138,5 @@
 // brown
 .green { color: green!important; }
 .bg-green { background-color: green!important; }
+.bg-green-light { background-color: rgb(170, 212, 170)!important; }
 
